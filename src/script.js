@@ -44,7 +44,7 @@ if (palpitesErrados.includes(palpiteDigitado)) {
     atualizarPalpitesFalhos(novosPalpitesFalhos);
 
     const pontuacaoAtual = pegarPontuacao();
-    if (pontuacaoAtual === "Você tem 0 pontos.") {
+    if (pontuacaoAtual === "Você tem 0 pontos") {
         alert("Você perdeu =(  Jogue novamente!");
         reiniciarJogo();
 }
