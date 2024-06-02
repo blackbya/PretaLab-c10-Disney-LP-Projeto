@@ -9,13 +9,13 @@ Vamos iniciar um jogo de adivinhação projeto final do módulo de lógica de pr
   1. [ x ] Não aceitar palpites vazios.
   2. [ x ] Dar dicas a cada palpite errado.
   3. [ x ] Atualizar a pontuação a cada palpite errado.
-  4. [ ] Mostrar todos os palpites errados do jogo para evitar que repitam o erro.
-  5. [ ] Possibilidade de poder reiniciar o jogo a qualquer momento.
-  6. [ ] Se a pontuação chegar a zero, deve ser exibido um alerta e o jogo reiniciado.
+  4. [ x ] Mostrar todos os palpites errados do jogo para evitar que repitam o erro.
+  5. [ x ] Possibilidade de poder reiniciar o jogo a qualquer momento.
+  6. [ x ] Se a pontuação chegar a zero, deve ser exibido um alerta e o jogo reiniciado.
 
 ### ----- Momento individual -----
-  7. [ ] Só deve aceitar numeros entre 1 e 100.
-  8. [ ] Não deve aceitar palpite repetido. Ou seja, o usuário deve ser alertado de que já tentou esse palpite, não devemos contar como palpite, nem adicionar na lista de palpites errados.
+  7. [ x ] Só deve aceitar numeros entre 1 e 100.
+  8. [ x ] Não deve aceitar palpite repetido. Ou seja, o usuário deve ser alertado de que já tentou esse palpite, não devemos contar como palpite, nem adicionar na lista de palpites errados.
   9. [ ] Publicar no netlify
 
 ## Instruções
