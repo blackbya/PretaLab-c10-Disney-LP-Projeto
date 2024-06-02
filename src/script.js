@@ -40,8 +40,8 @@ if (palpitesErrados.includes(palpiteDigitado)) {
     atualizarPontuacao(novaPontuacao);
 
     const palpitesFalhos = pegarPalpitesFalhos();
-    const novosPalpitesFalhos = palpitesFalhos + "" + palpiteDigitado;
-    atualizarPalpitesFalhos(novosPalpitesFalhos)
+    const novosPalpitesFalhos = palpitesFalhos + " " + palpiteDigitado + (repetido ? "♻" : "");
+    atualizarPalpitesFalhos(novosPalpitesFalhos);
 
     const pontuacaoAtual = pegarPontuacao();
     if (pontuacaoAtual === "Você tem 0 pontos.") {
