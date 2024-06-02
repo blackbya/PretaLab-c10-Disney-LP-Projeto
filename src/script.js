@@ -47,6 +47,7 @@ if (palpitesErrados.includes(palpiteDigitado)) {
     if (pontuacaoAtual === "Você tem 0 pontos") {
         alert("Você perdeu =(  Jogue novamente!");
         reiniciarJogo();
+        return;
 }
 }
 
