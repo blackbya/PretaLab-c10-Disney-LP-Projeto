@@ -5,7 +5,8 @@ function jogoDeAdivinhacao() {
    const palpiteDigitado = pegarPalpiteDigitado();
 
    if (!palpiteDigitado) {
-    alert('Digite um valor válido')
+    alert('Digite um valor válido');
+    return;
    }
 
    if (palpiteDigitado === numeroAleatorio) {
